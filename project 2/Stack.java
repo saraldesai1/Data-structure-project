@@ -1,8 +1,4 @@
-/**
- * in this class every item get stack and it just print from top to bottom without changing any order.
- * @author Saral Desai
- * @version 10/01/2020
- */
+
 public class Stack {
 	private int maxsize;
 	private Country[] country;
