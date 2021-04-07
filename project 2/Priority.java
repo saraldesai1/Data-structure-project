@@ -1,9 +1,4 @@
-/**
- * This class priorities the cfr rates from the csv file and put them into 
- * different order.
- * @author saral
- *@version 10/01/2020
- */
+
 public class Priority {
 	private int maxsize;
 	private Country[] country;
