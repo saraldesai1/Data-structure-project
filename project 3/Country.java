@@ -1,11 +1,4 @@
-/**
- * Country class stores all the data from csv file and breaks them into different category 
- * so in the project 2 class it can call for different function.
- * <p>in this class i have getter and setter method for assign all the information from CSV file.
- * 
- * @author Saral Desai
- * @version 10/24/2020
- */
+
 public class Country {
 	private String Countryname;
 	private String Capitol;
