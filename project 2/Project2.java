@@ -3,20 +3,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Scanner;
-/**
- * Project 2 class call all the other class. this project 2 class is created for 
- * stack and Priority queue. show how everything prints from stack and Priority queue. 
- * 
- * In the priority class call it prints data from file on assiding order where each class show 
- * which country has lest case fatality rate(CFR) to most case fatality rate(CFR).
- * 
- * The first print in stack class is just what is in the file and second one is what is pushed 
- * from priority class after printing. it is prints in first in last out. 
- * 
- * @author Saral Desai
- * @version 10/01/2020
- *
- */
+
 
 public class Project2 {
 	/**
