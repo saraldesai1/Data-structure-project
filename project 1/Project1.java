@@ -7,26 +7,7 @@ import java.util.Scanner;
 
 public class Project1 
 {
-	/********************************************************************************************
-	 * COP 3530: Project 1- Array Searches and Short.											*
-	 * 																							*
-	 * In this program user upload the csv file which has information which can be shorted 		*
-	 * different ways. The File get read from SRC folder in eclipse,							*
-	 * 																							*
-	 *  I have two different input for user First for user file name to uploading file          *
-	 *  and second for selecting from different menu option.								    *
-	 *																							*  
-	 *  The load file class is where user input the file name that want to upload file into a   *
-	 *  code  to get shorted by different option. In this class file get loaded into array for  *
-	 *  different shorting method. After the file gets loaded into array it returns an integer 	*
-	 *  which counts number of lines of data it has. Also the data get transfer into country    *
-	 *  class. If the return is -1 then user has putted the wrong file name.					*
-	 *  																						*		
-	 *  Student: Saral Desai.																	*
-	 *  																						*
-	 *  9/10/2020																				*
-	 *	  																						*
-	 *******************************************************************************************/
+	
 	public static int loadfile(Country[] country)
 	{
 		String UserFileName;
@@ -65,16 +46,7 @@ public class Project1
 		return lines;
 		
 	}
-/*************************************************************************************************
- * In main class different methods are called. This class also display menu for user to select   *
- * different shorting method. This class also initial the country class array where the data is  *
- * stored form load file. In main class there is a do while loop for user keep shorting data in  *
- * different way. In here there are two scanner option one is to select option from a menu and   *
- * another to input country name for searching method.                                           * 
- * 																								 *
- * In this class there is a try and catch block so if the user put anything other that integer   *
- * the program wont crash and user has an option to put right input afterwards.                  *
- ************************************************************************************************/
+
 	public static void main(String[] args) 
 	{
 		Country [] country = new Country[1000];
@@ -159,10 +131,7 @@ public class Project1
 		Input3.close();
 		}
 }
-/********************************************************************************
- * In this class the csv file data gets printed as it is without making changes *
- * before making any kind of shorting is apply. 								*
- ********************************************************************************/
+
 public static void	printreport(Country[] country, int length)
 {
 	System.out.printf("\n%-35s %20s %20s %20s %20s %20s","Country_name","Country_capital","Population","GDP","COVID19_Cases","COVID19_Deaths");
@@ -173,10 +142,7 @@ public static void	printreport(Country[] country, int length)
 	}
 	System.out.println();
 }
-/*******************************************************************************
- * In this class the csv file data gets shorted by name so it goes from A-Z in *
- * that order.																   *
- ******************************************************************************/
+
 public static void Short_by_name_Insertion_sort(Country[] country,int length)
 {
 	int in,out;
@@ -193,14 +159,7 @@ public static void Short_by_name_Insertion_sort(Country[] country,int length)
 		}
 	}
 }
-/*********************************************************************************
- * In this class the data gets shorted into case fatality rate(CFR) which is get * 
- * from file. It goes from smallest number to biggest number. Also all the get   *
- * function are called from Country class for shorting.    	 				   	 *
- * 																				 *
- * All the information after shorted is store in print for user to see it wont   *
- * just print right after shorting.                                              *
- ********************************************************************************/
+
 public static void CFR_report_selection_sort_ascendingly_order(Country[] country,int length)
 {
 	int out,in;
@@ -224,11 +183,7 @@ public static void CFR_report_selection_sort_ascendingly_order(Country[] country
 		
 	}
 }
-/*********************************************************************************
- * In this class the data gets shorted by GDP per capita but the order it goes 	 *
- * is from largest to smallest of the country. Also function the get function    *
- * are called from the country class.											 *
- ********************************************************************************/
+
 public static void GDP_per_capita_bubble_shorting_descendingly_order(Country[] country,int length)
 {
 	int in,out;
@@ -245,11 +200,7 @@ public static void GDP_per_capita_bubble_shorting_descendingly_order(Country[] c
 		}
 	}
 }
-/**********************************************************************************
- * In this class user can ask for particular country information. This is a       *
- * bianary search method . This method get called if user previously selected     *
- * shorted by name method.														  *
- *********************************************************************************/
+
 public static void bianary_search(Country[] country, int length,String name)
 {
 	int low=0;
@@ -284,11 +235,7 @@ public static void bianary_search(Country[] country, int length,String name)
 		}
 	}
 }
-/**************************************************************************
- * In this class user can ask for particular country information by their *
- * name. For this search method to get called user doesn't have to use any*
- * shorted method to search for any country.                              * 
- *************************************************************************/
+
 public static void sequential_search(Country[]country,int length,String name)
 {
 	int i=0;
