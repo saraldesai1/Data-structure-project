@@ -1,16 +1,4 @@
-/****************************************************************************
- * In this class the data is loaded into get and set method by their data   *
- * from file. This class is used in project 1 class from different shorting *
- * method.																	*
- * 																			*
- * I also have created two more just the get class for CFR and GDP for      *
- * shorting method. Here is also a compare class which compare country from	*
- * one to another. Here it stores country and outputs an integer value 		*
- * which can be compare in project1 for shorting process.					*			
- * 																			*
- * Student: Saral Desai														*
- * 9/10/2020																	*
- ***************************************************************************/
+
 public class Country {
 	private String Countryname;
 	private String Capitol;
