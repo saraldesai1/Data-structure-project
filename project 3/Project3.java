@@ -3,18 +3,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Scanner;
-/**
- * Project 3 class call all the other class. this project 2 class is created for 
- * stack and queue. show how everything prints from stack and queue with links.
- * <p>in the stack class i am making double ended singly link list. It prints from first 
- * to last.
- * <p>in the queue class i am making double ended doubly link list and when the first item is inserted and the second 
- * item is last and keeps going until all the file are inserted.  
- * 
- * @author Saral Desai
- * @version 10/24/2020
- *
- */
+
 public class Project3 {
 	/**
 	 * The loadfile function ask user that file they want to scan into this code for stack and priority queue. 
