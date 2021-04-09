@@ -1,8 +1,4 @@
-/**
- * In queue the double ended doubly link list is created.
- * @author Saral Desai
- * @version 10/24/2020
- */
+
 public class Queue 
 {
 	private Link first;
