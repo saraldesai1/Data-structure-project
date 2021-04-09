@@ -1,10 +1,4 @@
-/**
- * In this class I am creating binary search tree. Where tree is created by comparing names to each other. There are different function that show 
- * how trees are funtion works like removing, find and different traversing.
- * @author Saral Desai
- * @version 11/13/2020
- *
- */
+
 public class BinarySearchTree 
 {
 	/**
