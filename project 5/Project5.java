@@ -3,13 +3,6 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Scanner;
-/**
- * In this project we are creating a hash table where country information is inserted based upon their country name and capitol. The Hash
- * table that we are creating is also separate chaining so it can handle the collision.<p> Also we are using the double ended singly link 
- * list. 
- * @author Saral Desai
- * @version 12/2/2020
- */
 
 public class Project5 {
 	/**
