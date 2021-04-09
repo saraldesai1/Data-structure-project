@@ -3,14 +3,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Scanner;
-/**
- * Project 4 - Binary search trees 
- * <p>In this project we creating a trees based on names and it is not a balance tree. I am going through a tree and show how effective it is compare to array.
- * Also i am going to delete some countries and show how they get rearrange in trees. In here there are different ways of printing trees too.
- *   
- * @author Saral Desai
- * @version 11/13/2020
- */
+
 public class Project4 {
 	/**
 	 * The loadfile function ask user the file they want to scan into binary search tree class.
