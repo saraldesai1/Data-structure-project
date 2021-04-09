@@ -1,14 +1,6 @@
 
 public class HashTable {
-	/**
-	 * This class has two helper method one to create link list and another to insert, delete and find.
-	 * <p>So the class node has all the information for country to use to insert in the link and it also 
-	 * create a double ended singly link list.<p> The shortlist class is for help hash table to find country information and inserted 
-	 * based on their key.
-	 * @author Saral Desal
-	 * @version 12/2/2020
-	 *
-	 */
+	
 	private class Node 
 	{
 		String name;
