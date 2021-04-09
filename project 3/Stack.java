@@ -1,8 +1,4 @@
-/**
- * The link class stores all the variable needed for the link 
- * @author Saral Desai
- * @version 10/24/2020
- */
+
 class Link
 {
 	public Country country;
